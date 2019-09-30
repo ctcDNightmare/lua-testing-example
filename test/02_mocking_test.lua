@@ -18,7 +18,7 @@ describe("ExampleController", function()
     end)
 
     it("should pass the calculation to the service", function()
-        -- we are not here to test if 2x3=6 because that's the job of the service not this controller
+        -- we are not here to test if 2x3=6 because that's the job of the service not this controller 
         assert.is_equal(testSubject.calculate(2,3), 'success')
     end)
 end)
